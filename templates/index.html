@@ -1,0 +1,36 @@
+<html>
+<body>
+<form id="form1" method="POST" enctype="multipart/form-data">
+<div class="form-group">
+    <label for="keywords">Keywords</label>
+    <input type="text" name="keyword_list" placeholder="Names to search separated by comma (upto 5 terms)"
+           class="form-control"
+           value="{{ request.form['keyword_list']}}">
+    </input>
+    <label for="startdate">Start Date</label>
+    <input type="date" name="start_date" placeholder="Start Date for Trends (YYYY-MM-DD)"
+           class="form-control"
+           value="{{ request.form['start_date']}}">
+    </input>
+    <label for="enddate">End Date</label>
+    <input type="date" name="end_date" placeholder="End Date for Trends (YYYY-MM-DD)"
+           class="form-control"
+           value="{{ request.form['end_date']}}">
+    </input>
+  <select name="option" width="300px">
+  {% for o in option_list %}
+      <option value="{{ o }}" SELECTED>{{ o }}</option>
+  {% endfor %}
+</select>
+</div>
+<div class="form-group">
+    <button type="submit" class="btn btn-default">Submit</button>
+</div>
+</form>
+<div id="message">
+  {% if message is defined %}
+      {{ Message }}
+  {% endif %}
+</div>
+</body>
+</html>

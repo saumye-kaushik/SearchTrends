@@ -1,0 +1,52 @@
+{
+  "children": [
+    {
+      "name": "Champaign & Springfield-Decatur IL",
+      "id": "US-IL-648"
+    },
+    {
+      "name": "Chicago IL",
+      "id": "US-IL-602"
+    },
+    {
+      "name": "Davenport IA-Rock Island-Moline IL",
+      "id": "US-IL-682"
+    },
+    {
+      "name": "Evansville IN",
+      "id": "US-IL-649"
+    },
+    {
+      "name": "Paducah KY-Cape Girardeau MO-Harrisburg-Mount Vernon IL",
+      "id": "US-IL-632"
+    },
+    {
+      "name": "Peoria-Bloomington IL",
+      "id": "US-IL-675"
+    },
+    {
+      "name": "Quincy IL-Hannibal MO-Keokuk IA",
+      "id": "US-IL-717"
+    },
+    {
+      "name": "Rockford IL",
+      "id": "US-IL-610"
+    },
+    {
+      "name": "St. Louis MO",
+      "id": "US-IL-609"
+    },
+    {
+      "name": "Terre Haute IN",
+      "id": "US-IL-581"
+    },
+    {
+      "name": "Illinois",
+      "id": "US-IL"
+    },
+    {
+      "name": "United States of America",
+      "id": "US"
+    }
+  ]
+}
