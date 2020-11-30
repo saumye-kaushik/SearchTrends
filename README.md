@@ -1,2 +1,5 @@
 # SearchTrends
-A Flask webapp that inputs location, dates and locations to find google search trends and uploads the file to S3 
+A Flask webapp that inputs location, dates and locations to find google search trends and uploads the file to S3.
+
+Technologies used-
+Flask, Jinja, Python, AWS.
